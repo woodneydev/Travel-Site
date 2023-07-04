@@ -1,0 +1,112 @@
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FEFAF5;
+    height: 60vh;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+    width: 40%;
+    height: 100%;
+    
+}
+
+/* .hero-left__title {
+    font-size: 3rem;
+} */
+
+.hero-left__description {
+    margin: 5% 0;
+}
+
+.btn {
+    background-color: #db7a4e;
+    padding: 10px;
+    color: #fff;
+    width: 11.875rem;
+    border: none;
+    border-radius: 40px;
+}
+
+.hero-right {
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+    height: 100%;
+
+}
+
+.hero-right__img {
+    height: 75%;
+    
+}
+
+.main-container {
+    
+}
+
+.main__title {
+    margin: 20px 0 20px 50px;
+}
+
+.card__title {
+    color: #fff;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+}
+
+.card--hawaii {
+    background-image: url(../assests/images/hawaii.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card--iceland {
+    background-image: url(../assests/images/iceland.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card--greece {
+    background-image: url(../assests/images/greece.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FEFAF5;
+    height: 300px;
+}
+
+.footer-card__details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-card__details--contact {
+    flex-direction: column;
+
+}
+
+.footer-card__details-box {
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.footer-card__title {
+    margin-bottom: 20px;
+}
+
+.footer-card__details-img {
+ height: 30px;
+} */
