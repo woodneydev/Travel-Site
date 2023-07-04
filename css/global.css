@@ -1,3 +1,4 @@
+/* ---- Default Styling ---- */
 * {
     margin: 0;
     padding: 0;
@@ -17,14 +18,14 @@ h1 {
 a {
     text-decoration: none;
     color: black;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .nav-bar {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
-    padding: 15px 0;
+    padding: .5% 0;
 
 }
 
@@ -37,32 +38,31 @@ p {
 }
 
 .nav-bar__list {
-    margin-right: 5%;
-}
-
-.nav-bar__list {
+    margin-right: 10%;
     display: flex;
     list-style-type: none;
 }
 
 .nav-bar__list-links {
-    margin: 20px;
+    margin: 5%;
 }
 
 .nav-bar__list-links--selected {
-    padding-bottom: 5px;
-    border-bottom: 3px solid #db7a4e;
+    padding-bottom: 3%;
+    border-bottom: .1875rem solid #db7a4e;
 }
 
 .card-container {
     display: flex;
     justify-content: center;
-    height: 500px;
+    height: 50vh;
 }
 
 .card {
-    width: 16rem;
-    height: 24rem;
+    width: 17rem;
+    height: 25.5rem; 
+    /* width: 20%;
+    height: 67%; */
     border-radius: .6rem;
     margin: 1.5rem;    
     display: flex;
@@ -78,7 +78,7 @@ p {
     align-items: center;
     justify-content: center;
     background-color: #FEFAF5;
-    height: 300px;
+    height: 20vh;
 }
 
 .footer-card {
@@ -109,11 +109,11 @@ p {
 
 .footer-card__details-img {
  height: 25px;
- margin-right: 20px;
+ margin-right: 35px;
 }
 
 .orange-text {
-    font-size: .7rem;
+    font-size: .8rem;
     color: #db7a4e;
 }
 
