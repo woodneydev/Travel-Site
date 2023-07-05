@@ -74,3 +74,8 @@
     background-position: center;
 }
 
+@media screen and (max-width: 767px) {
+    .hero-container {
+      flex-wrap: wrap;
+    }
+}
