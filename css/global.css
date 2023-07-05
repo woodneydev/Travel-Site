@@ -64,7 +64,6 @@ p {
     border-bottom: .1875rem solid #DB7A4E;
 }
 
-
 .card-container {
     display: flex;
     justify-content: center;
@@ -73,22 +72,17 @@ p {
     padding-bottom: 5%;
 }
 
-
-@media screen and (min-width: 768px) {
-
-    .card {
-        width: 20%;
-        aspect-ratio: 2/3;
-        border-radius: .6rem;
-        margin: 2%;    
-        display: flex;
-        justify-content: flex-end;
-        align-items: end;
-        border: .0625rem solid rgba(0, 0, 0, 20%);
-    }
-
+.card {
+    width: 20%;
+    aspect-ratio: 2/3;
+    border-radius: .6rem;
+    margin: 2%;    
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    border: .0625rem solid rgba(0, 0, 0, .2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .2);
 }
-
 
 .footer {
     display: flex;
