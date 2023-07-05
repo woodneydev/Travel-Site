@@ -7,7 +7,7 @@
 }
 
 h1, h2, p {
-    color: #335476;
+    color: #335576;
 }
 
 h1 {
@@ -19,21 +19,28 @@ a {
     text-decoration: none;
     color: black;
     font-size: 1.1rem;
-}
-
-.nav-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: .5% 0;
-
+    display: block;
 }
 
 p {
     font-size: 1.0rem;
 }
 
-.nav-bar__title {
+/* ---- End ---- */
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5% 0;
+    background-color: #FFFFFF;
+}
+
+.nav-bar__link {
+    flex: 1;
+}
+
+.nav-bar__link-title {
     margin-left: 5%;
 }
 
@@ -47,76 +54,86 @@ p {
     margin: 5%;
 }
 
+.nav-bar__list-links:hover {
+    padding-bottom: 3%;
+    border-bottom: .1875rem solid #DB7A4E;
+}
+
 .nav-bar__list-links--selected {
     padding-bottom: 3%;
-    border-bottom: .1875rem solid #db7a4e;
+    border-bottom: .1875rem solid #DB7A4E;
 }
+
 
 .card-container {
     display: flex;
     justify-content: center;
-    height: 50vh;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
 }
 
-.card {
-    width: 17rem;
-    height: 25.5rem; 
-    /* width: 20%;
-    height: 67%; */
-    border-radius: .6rem;
-    margin: 1.5rem;    
-    display: flex;
-    justify-content: flex-end;
-    align-items: end;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 20%);
-}
 
+@media screen and (min-width: 768px) {
+
+    .card {
+        width: 20%;
+        aspect-ratio: 2/3;
+        border-radius: .6rem;
+        margin: 2%;    
+        display: flex;
+        justify-content: flex-end;
+        align-items: end;
+        border: .0625rem solid rgba(0, 0, 0, 20%);
+    }
+
+}
 
 
 .footer {
     display: flex;
-    align-items: center;
     justify-content: center;
     background-color: #FEFAF5;
-    height: 20vh;
+    min-height: 20vh;
 }
 
 .footer-card {
-    margin: 0px 30px;
-}
+    margin: 3% 2%;
+} 
 
 .footer-card__details {
     display: flex;
     justify-content: space-between;
-
+    width: 100%;
 }
 
 .footer-card__details--contact {
     flex-direction: column;
-
 }
 
 .footer-card__details-box {
-    margin: 0px 20px;
+    margin: 0rem 1.25rem;
     display: flex;
     flex-direction: column;
     justify-content: end;
 }
 
 .footer-card__title {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 .footer-card__details-img {
- height: 25px;
- margin-right: 35px;
+ height: 30px;
+ margin-right: 2.1875rem;
+ margin-top: 1.26rem;
 }
 
-.orange-text {
+.footer-card__details-title {
     font-size: .8rem;
-    color: #db7a4e;
+    color: #DB7A4E;
 }
 
-.bottom {
-    margin-top: 20px;
+.footer-card__details-item {
+    margin-top: 1.25rem;
 }
+

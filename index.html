@@ -12,14 +12,14 @@
 <body>
     <header>
         <nav class="nav-bar">
-            <h2 class="nav-bar__title">Travel Site</h2>
+            <a class="nav-bar__link" href="./index.html"><h2 class="nav-bar__link-title">Travel Site</h2></a>
             <ul class="nav-bar__list">
                 <li class="nav-bar__list-links nav-bar__list-links--selected">
-                    <a href="">Home</a>
+                    <a href="./index.html">Home</a>
                 </li>
-                <li class="nav-bar__list-links"><a href="">Hawaii</a></li>
-                <li class="nav-bar__list-links"><a href="">Iceland</a></li>
-                <li class="nav-bar__list-links"><a href="">Greece</a></li>
+                <li class="nav-bar__list-links"><a href="./pages/hawaii.html">Hawaii</a></li>
+                <li class="nav-bar__list-links"><a href="./pages/iceland.html">Iceland</a></li>
+                <li class="nav-bar__list-links"><a href="./pages/greece.html">Greece</a></li>
             </ul>
         </nav>
         <section class="hero-container">
@@ -42,15 +42,15 @@
     <main class="main-container">
         <h2 class="main__title">Recommendations</h2>
         <section class="card-container">
-            <div class="card card--hawaii">
+            <a href="./pages/hawaii.html" class="card card--hawaii">
                 <h2 class="card__title">Hawaii</h2>
             </div>
-            <div class="card card--iceland">
+            <a href="./pages/iceland.html" class="card card--iceland">
                 <h2 class="card__title">Iceland</h2>
-            </div>
-            <div class="card card--greece">
+            </a>
+            <a href="./pages/greece.html" class="card card--greece">
                 <h2 class="card__title">Greece</h2>
-            </div>
+            </a>
         </section>
     </main>
 
@@ -58,35 +58,35 @@
         <section class="footer-card">
             <h2 class="footer-card__title">Contact</h2>
             <div class="footer-card__details footer-card__details--contact">
-                <p class="orange-text">Email</p>
-                <p class="bottom">info@travelsite.com</p>
+                <p class="footer-card__details-title">Email</p>
+                <p class="footer-card__details-item">info@travelsite.com</p>
             </div>
         </section>
         <section class="footer-card">
             <div class="footer-card__details footer-card__details--hours">
                 <div class="footer-card__details-box">
                     <h2 class="footer-card__title">Hours</h2>
-                    <p class="orange-text">Monday - Friday</p>
-                    <p class="bottom">9:00 AM - 5:00 PM</p>
+                    <p class="footer-card__details-title">Monday - Friday</p>
+                    <p class="footer-card__details-item">9:00 AM - 5:00 PM</p>
                 </div>
 
                 <div class="footer-card__details-box">
-                    <p class="orange-text">Saturday</p>
-                    <p class="bottom">10:00 AM - 4:00 PM</p>
+                    <p class="footer-card__details-title">Saturday</p>
+                    <p class="footer-card__details-item">10:00 AM - 4:00 PM</p>
                 </div>
 
                 <div class="footer-card__details-box">
-                    <p class="orange-text">Sunday</p>
-                    <p class="bottom">Closed</p>
+                    <p class="footer-card__details-title">Sunday</p>
+                    <p class="footer-card__details-item">Closed</p>
                 </div>
             </div>
         </section>
-        <section class="footer-card">
+        <section class="footer-card footer-card--social">
             <h2 class="footer-card__title">Social</h2>
             <div class="footer-card__details">
-                <img src="./assests/images/icon-instagram.png" alt="" class="footer-card__details-img bottom remove" />
-                <img src="./assests/images/icon-facebook.png" alt="" class="footer-card__details-img bottom" />
-                <img src="./assests/images/icon-twitter.png" alt="" class="footer-card__details-img bottom" />
+                <a href="https://www.instagram.com"><img src="./assests/images/icon-instagram.png" alt="instagram logo" class="footer-card__details-img" /></a>
+                <a href="https://www.facebook.com"><img src="./assests/images/icon-facebook.png" alt="facebook logo" class="footer-card__details-img" /></a>
+                <a href="https://www.twitter.com"><img src="./assests/images/icon-twitter.png" alt="twitter logo" class="footer-card__details-img" /></a>
             </div>
         </section>
     </footer>

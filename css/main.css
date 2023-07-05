@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     background-color: #FEFAF5;
-    height: 50vh;
+    min-height: 50vh;
 }
 
 .hero-left {
@@ -10,9 +10,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    text-align: left;
     margin-left: 5%;
-    width: 50%;
-    height: 100%;
+    min-width: 50%;
+    min-height: 100%;
 }
 
 .hero-left__title {
@@ -25,30 +26,23 @@
 }
 
 .btn {
-    background-color: #db7a4e;
-    padding: 10px;
+    background-color: #DB7A4E;
+    padding: .625rem;
     color: #fff;
     width: 11.875rem;
     border: none;
-    border-radius: 40px;
+    border-radius: 2.5rem;
     font-size: 1.1rem;
 }
 
 .hero-right {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    margin-right: 5%;
-    height: 100%;
-
+    max-height: 100%;
 }
 
 .hero-right__img {
-    height: 70%;
-}
-
-.main-container {
-    
+    height: 60%;
 }
 
 .main__title {
@@ -57,8 +51,8 @@
 
 .card__title {
     color: #fff;
-    margin-right: .5rem;
-    margin-bottom: .5rem;
+    margin-right: 3.1%;
+    margin-bottom: 3.1%;
 }
 
 .card--hawaii {
